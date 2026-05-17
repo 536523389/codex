@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="沉浸式深海主题体验，探索海底故事、生物与探险计划。" />
+  <title>Deep Sea Odyssey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
+  <div class="background-overlay"></div>
+  <div class="caustics"></div>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">Abyssal</div>
+      <button class="menu-toggle" aria-label="展开导航" aria-expanded="false" aria-controls="nav-links">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#story">故事</a>
+        <a href="#creatures">生物</a>
+        <a href="#expedition">探险</a>
+      </div>
+      <button class="pill-button">立即启航</button>
+    </nav>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="eyebrow">深海之旅</p>
+        <h1>潜入千米深蓝，见证光与影的奇迹</h1>
+        <p class="lede">
+          探索阳光无法触及的未知世界，邂逅霓虹发光的生命，聆听海底洋流的脉动。
+          一切从这里开始。
+        </p>
+        <div class="cta-row">
+          <button class="primary">预约沉浸体验</button>
+          <button class="ghost">查看深度地图</button>
+        </div>
+        <div class="stats">
+          <div>
+            <p class="number">11,000m</p>
+            <p class="label">马里亚纳海沟深度</p>
+          </div>
+          <div>
+            <p class="number">6,000+</p>
+            <p class="label">已记录深海物种</p>
+          </div>
+          <div>
+            <p class="number">3</p>
+            <p class="label">实时直播潜点</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="card-inner">
+          <p class="tag">实时声呐</p>
+          <h3>蓝洞入口</h3>
+          <p class="card-meta">深度 324m · 水温 4.1°C</p>
+          <div class="sonar">
+            <div class="sonar-ring"></div>
+            <div class="sonar-ring delay"></div>
+            <div class="sonar-dot"></div>
+          </div>
+          <div class="badge-row">
+            <span class="badge">低光环境</span>
+            <span class="badge">浮游生物密集</span>
+            <span class="badge">潜航器已就位</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section id="story" class="panel">
+      <div class="panel-text">
+        <p class="eyebrow">深蓝故事</p>
+        <h2>光线消逝之处，色彩开始生长</h2>
+        <p>
+          深度超过 200 米的中层带，阳光逐渐褪色，取而代之的是
+          生物荧光的霓虹光谱。透明的伞形水母、蓝色火焰般的
+          桡足类，让黑暗变成多彩的舞台。
+        </p>
+        <div class="pill-stack">
+          <span class="pill">浮游光带</span>
+          <span class="pill">冷泉喷口</span>
+          <span class="pill">沉船考古</span>
+        </div>
+      </div>
+      <div class="panel-grid">
+        <div class="card glass">
+          <h3>温跃层</h3>
+          <p>温度与密度急剧变化的界面，形成“镜子”般的声学折射层。</p>
+        </div>
+        <div class="card glass">
+          <h3>冷泉生态</h3>
+          <p>依赖化能合成的蠕虫、蛤蜊与细菌，构建无阳光的生态系统。</p>
+        </div>
+        <div class="card glass">
+          <h3>深渊平原</h3>
+          <p>厚达数百米的沉积物，纪录地球与宇宙尘埃的时间轴。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="creatures" class="panel creatures">
+      <div class="panel-header">
+        <p class="eyebrow">邂逅生物</p>
+        <h2>发光体与暗影猎手</h2>
+      </div>
+      <div class="creature-grid">
+        <article class="specimen">
+          <div class="halo"></div>
+          <h3>幽蓝水母</h3>
+          <p>半透明伞盖随洋流起伏，荧光脉络映出宛如星系的轨迹。</p>
+          <span class="badge">光学迷彩</span>
+        </article>
+        <article class="specimen">
+          <div class="halo cyan"></div>
+          <h3>琥珀角鲨</h3>
+          <p>软骨骨架与细长身形让它能在高压环境中迅捷穿梭。</p>
+          <span class="badge">深压适应</span>
+        </article>
+        <article class="specimen">
+          <div class="halo violet"></div>
+          <h3>晶冠桡足</h3>
+          <p>反射光线的晶粒覆盖体表，在黑暗中折射蓝紫色闪光。</p>
+          <span class="badge">生物荧光</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="expedition" class="panel expedition">
+      <div class="panel-header">
+        <p class="eyebrow">探险计划</p>
+        <h2>从岸边到海沟的三段旅程</h2>
+      </div>
+      <div class="timeline">
+        <div class="time-card">
+          <p class="step">01</p>
+          <h3>夜航出发</h3>
+          <p>载人潜航器携带多光谱相机与声呐，在夜色中下潜。</p>
+        </div>
+        <div class="time-card">
+          <p class="step">02</p>
+          <h3>蓝洞勘测</h3>
+          <p>环绕蓝洞边缘航行，采集温盐深剖面与微生物样本。</p>
+        </div>
+        <div class="time-card">
+          <p class="step">03</p>
+          <h3>深沟停留</h3>
+          <p>在 6,000m 平台部署栖息地传感器，记录压力与生物活动。</p>
+        </div>
+      </div>
+      <div class="cta-row">
+        <button class="primary">加入直播</button>
+        <button class="ghost">下载航线</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <p class="logo">Abyssal</p>
+      <p>以科技与想象力，打开深海之门。</p>
+    </div>
+    <div class="footer-links">
+      <a href="#">隐私</a>
+      <a href="#">支持</a>
+      <a href="#">订阅</a>
+    </div>
+  </footer>
+
+  <div class="bubble-layer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
